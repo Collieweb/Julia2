@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>readmore</title>
+    <link rel="stylesheet" href="css/readmorestyle.css">
+ </head>
+ <body>
+    <div class="container">
+
+        <div class="card">
+           <div class="content">
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, debitis.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maiores voluptatibus enim nostrum. Quos, delectus! Doloribus tempora ratione adipisci cupiditate, necessitatibus molestiae velit reprehenderit veniam officia asperiores ea deserunt? Fuga earum atque aspernatur dolorem at asperiores possimus autem officiis quasi quas ad consequatur quam cumque molestiae ullam, consectetur quibusdam molestias laboriosam ipsam non? Laudantium.</p>
+        </div>
+        <a class="more"></a>
+        </div>
+        
+  
+        <div class="card">
+           <div class="content">
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, debitis.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maiores voluptatibus enim nostrum. Quos, delectus! Doloribus tempora ratione adipisci cupiditate, necessitatibus molestiae velit reprehenderit veniam officia asperiores ea deserunt? Fuga earum atque aspernatur dolorem at asperiores possimus autem officiis quasi quas ad consequatur quam cumque molestiae ullam, consectetur quibusdam molestias laboriosam ipsam non? Laudantium.</p>
+        </div>
+        <a class="more"></a>
+        </div>
+
+   
+        <div class="card">
+           <div class="content">
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, debitis.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maiores voluptatibus enim nostrum. Quos, delectus! Doloribus tempora ratione adipisci cupiditate, necessitatibus molestiae velit reprehenderit veniam officia asperiores ea deserunt? Fuga earum atque aspernatur dolorem at asperiores possimus autem officiis quasi quas ad consequatur quam cumque molestiae ullam, consectetur quibusdam molestias laboriosam ipsam non? Laudantium.</p>
+        </div>
+        <a class="more"></a>
+        </div>
+    </div>
+    <script>
+        let more = document.querySelectorAll('.more');
+        for(let i=0; i<more.length; i++){
+            more[i].addEventListener('click',function(){
+                more[i].parentNode.classList.toggle('active')
+            })
+        }
+    </script>
+ </body>
+ </html>
